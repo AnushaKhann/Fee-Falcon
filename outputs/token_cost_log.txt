@@ -1,0 +1,38 @@
+FreightTiger — Token and Cost Log
+
+Run type: Full pipeline execution
+
+Input data:
+- data/shipment_records.csv
+- data/context_notes.csv
+
+Input shipment records: 2940
+Context notes: 10
+Weekly route observations: 728
+
+Hosted LLM API usage:
+- LLM API calls: 0
+- Input tokens: 0
+- Output tokens: 0
+- Hosted LLM API cost: $0.00
+
+Embedding model:
+- sentence-transformers/all-MiniLM-L6-v2
+- Inference location: Local environment
+
+Embedding inference:
+- Executed locally; no hosted LLM API was called.
+- Local CPU/memory consumption was not separately measured.
+- Local computational and storage costs are not included in the
+  hosted API cost figure.
+
+Result:
+- Output file: outputs/results.csv
+- Total output rows: 728
+- Anomaly candidates: 20
+- Justified anomalies: 3
+- Unexplained anomalies: 17
+
+Cost interpretation:
+The reported $0.00 refers only to hosted LLM API usage.
+It does not imply that local computation or storage has no cost.
