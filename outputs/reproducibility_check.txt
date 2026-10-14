@@ -1,0 +1,16 @@
+FreightTiger Reproducibility Check
+
+Input files:
+- data/shipment_records.csv
+- data/context_notes.csv
+
+Procedure:
+1. Ran the complete pipeline three times using unchanged inputs.
+2. Saved each generated output as run1.csv, run2.csv, and run3.csv.
+3. Compared run1.csv with run2.csv and run3.csv using diff -u.
+
+Result:
+Both diff comparisons produced no output, confirming that the CSV files were identical.
+
+Conclusion:
+The output was reproducible across three consecutive runs with unchanged inputs.

@@ -2,14 +2,19 @@
 __pycache__/
 *.py[cod]
 .venv/
-
-# Environment variables
-.env
-
-# Testing
 .pytest_cache/
-.coverage
-htmlcov/
 
-# Generated outputs
-outputs/
+# Environment variables and secrets
+.env
+.env.*
+
+# Local vector database
+chroma_db/
+
+# Generated output and temporary reproducibility files
+outputs/run1.csv
+outputs/run2.csv
+outputs/run3.csv
+
+# OS files
+.DS_Store
